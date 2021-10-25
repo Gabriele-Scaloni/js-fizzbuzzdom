@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+}
+
+body {
+    background-color: #183a4a;
+}
+
+#ContainerSquare {
+    width: 90%;
+    margin: 0 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 100px;
+    width: calc(100% /8);
+    min-width: 100px; 
+    margin: 10px 5px;
+    background-color: #3d88ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square.fizz {
+    background-color: #61d2a4;
+}
+.square.buzz {
+    background-color: #f9d277;
+}
+.square.fizzbuzz {
+    background-color: #de5471;
+}
